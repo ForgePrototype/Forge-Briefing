@@ -1,0 +1,75 @@
+---
+title: "Forge Briefing"
+author: "Daniel Truver"
+date: "5/24/2018"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<!--
+May 22, 2018
+
+CORELS: “Highly predictive, transparent, and easily understood by humans.” If you suspect a bias in the formulation of inscrutable machine learning methods, black boxes, you have no means to confirm or deny it. CORELS is a new algorithm that has shown high predictive accuracy and interpretability as a set of “if-then” statements. 
+https://arxiv.org/abs/1704.01701 
+[source note: I learned of this from the author herself]
+
+App for Atrial Fibrillation: With the prevalence of smart devices, patients and physicians can collect and monitor data from anywhere at any time. A new algorithm for Apple smartwatches demonstrates the potential for detecting atrial fibrillation.
+http://www.onlinejacc.org/content/71/21/2381?download=true&sso=1&sso_redirect_count=1&access_token=HgXubk3ZcgEBDXgwibsYowExbiNK38hnxgbcS0J89zF2ri7V6lmpo7V3ZmsEgi7ACFhHW4OLFZNpjAbwKWA2QWCT06mC9BYVrjkWEifa5P2etdiFYsmUzy9ZjV4Z
+[source note: Eric Topol Twitter]
+
+Paired Reading; Users of E.H.R. and Makers of E.H.R. : The New York Times reports on emerging and established problems with electronic health records. Separately, the President of Epic Systems and CEO of Allscripts discuss their visions for the future of E.H.R. 
+https://www.nytimes.com/interactive/2018/05/16/magazine/health-issue-what-we-lose-with-data-driven-medicine.html 
+http://www.healthcareitnews.com/news/next-gen-ehrs-epic-allscripts-and-others-reveal-future-electronic-health-records
+[source note: NYT article sent to the Forge, followed up looking for statements from the EHR providers, get their side of the story and whatnot]
+
+Ethics of Digital Health: The ethical concerns of digital healthcare in areas of crisis and humanitarian need have implications for the developed world. A thought provoking piece about what we can do with digital health and how we should do it.
+https://conflictandhealth.biomedcentral.com/articles/10.1186/s13031-018-0163-z
+[source note: so far the best article I can find discussing the ethical concerns surrounding the use of massive health data]
+
+AI to Prevent Seizures: Machine learning powers a device implanted in the human brain to interrupt seizures at onset. Closer at hand, Apple and other silicone companies pursue health data with their own algorithms. 
+https://www.wsj.com/articles/the-ai-doctor-will-see-you-now-1526817600 
+[source note: this is mostly just interesting]
+
+*****
+--->
+<!--
+May 23, 2018
+
+Training Image Data for Deep Neural Networks: Neural networks for image analysis need large volumes of data on which to train. Expert annotation is expensive and time-consuming. Cinematic rendering, a new technique for generating photorealistic images of tissue, may help with this data problem. 
+https://arxiv.org/abs/1805.08400   
+[source note: arXiv (sometimes referred to as the Los Alamos server) is a pre-print server. It is highly moderated; authors and papers need endorsements for other authors to appear on it. I visit often for the latest in statistics.]
+
+FDA Regulation of SaMD: Software as a Medical Device (SaMD) is expanding and with haste. In order to regulate a field that changes daily, the FDA has launched a pre-certification program for trusted software developers.
+https://www.fda.gov/MedicalDevices/DigitalHealth/DigitalHealthPreCertProgram/ucm567265.htm 
+[source note: Dr. Califf mentioned SaMD, it is of interest to me, and I expect it is of interest to people who would read the Forge site]
+
+A Quick Blurb: Machine learning has uses in public health as well. The top NIDA Addiction Science Award went to a team using three machine learning algorithms to identify undetected suicides in drug overdose deaths.
+https://www.nih.gov/news-events/news-releases/method-identify-undetected-drug-suicides-wins-top-nida-addiction-science-award 
+[source note: this is not a long article, more a proof of concept or demonstration than a real puzzler]
+
+Biostatistics and Machine Learning: Take a break from brawling at symposium panels. Biostatistics and Machine Learning can walk hand-in-hand or apart when needed.
+http://annals.org/aim/fullarticle/2680060/machine-learning-evidence-based-medicine 
+[source notes: another take on the fusion, and differences, of classical methods and machine learning. In case anyone did not go to the symposium and is curious] 
+
+*****
+--->
+May 24, 2018
+
+**Computationally Efficient Image Analysis**: Neural networks have begun to aid, and sometimes surpass, humans in object recognition. These methods are intractable without substantial computing power. This paper proposes an algorithm that is computationally more efficient. The stated goal of the authors is a program workable on a smart phone for practitioners across the globe.  
+[arXiv paper](https://arxiv.org/pdf/1805.09233.pdf)  
+
+**Making Use of the "Electronic" in EHRs**: Rolling news feeds and notifications for bitcoin and baseball have make digital information a fixture before our eyes. Yet, EHRs remain essentially a respository for paper records. There are signs of realizing the potential of EHRs in patient care.    
+[New England Journal of Medicine News Article](https://www.nejm.org/doi/full/10.1056/NEJMp1800874)  
+
+**Computer Vision and Clinician Behavior**: Computer vision is not just for diagnosic assistance. Clinician behavior may also fall under the eye of neural networks. There are proposed benefits, depending on your tolerance for big brother.   
+[New England Journal of Medicine Article (April)](https://www.nejm.org/doi/full/10.1056/NEJMp1716891)
+
+**HIPAA in the Age of Big Data**: Change is coming for privacy regulation. How far it will go and which actors it will cover is still uncertain.    
+[JAMA](https://jamanetwork.com/journals/jama/fullarticle/2682916)  
+
+**MyHealthEData**: You may have missed it: the Trump administration policy on patient access to data.   
+[CMS primary source](https://www.cms.gov/Newsroom/MediaReleaseDatabase/Fact-sheets/2018-Fact-sheets-items/2018-03-06.html)  
+[HIMSS initial statement (not much)](http://www.himss.org/news/himss-statement-myhealthedata-initiative)  
+[Joe Biden Response to MyHealthEData, a thought provoking opinion piece](http://fortune.com/2018/03/19/joe-biden-cancer-moonshot-data-save-lives/)
